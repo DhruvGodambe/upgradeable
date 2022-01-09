@@ -15,7 +15,7 @@ async function main() {
     await new Promise(res => setTimeout(() => res(null), 5000));
 
     async function IncVal() {
-        
+        ABI = "function incVal(address)"
     }
 
     async function setImplementation(proxyInstance, implAddr) {
